@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HR Homepage</title>
+      <link rel="stylesheet" href="/styles/style.css">
+   </head>
+   <body style="text-decoration: none; background-color:#E9EFC0; border: 2.5px double darkolivegreen; width: fit-content; max-width: 750px";>
+      <header>
+         <nav class="navheader">
+            <h1 class="h1">Welcome To The HR Dept.</h1>
+            <h3>We're Here To Help</h3><hr/>
+            <div class="nav" style="text-decoration: none; font-family: Georgia, 'Times New Roman', Times, serif;">
+               <a href="http://Google.com">Google</a> 
+               <a href="./index.html">Home</a> 
+               <a href="./accounting.html">Accounting</a>
+            </div><hr/>
+         </nav>
+      </header>
+      <main>
+         <div id="prime">
+            <div id="theform">
+                <form id="form">
+                  <label for="fullName">Full Name :</label>
+                  <input type="text" id="fullName" name="fullName" required><br>
+                  <label for="department">Department :  </label>
+                  <select name="department" id="empdepartment">
+                      <option value="Administration">Administration</option>
+                      <option value="Marketing">Marketing</option>
+                      <option value="Development">Development</option>
+                      <option value="Finance">Finance</option>
+                  </select>
+                  <br>
+                  <label for="level">Level :  </label>
+                  <select name="level" id="emplevel">
+                      <option value="Junior">Junior</option>
+                      <option value="Mid-Senior">Mid-Senior</option>
+                      <option value="Senior">Senior</option>
+                  </select>
+                  <br>
+                  <label for="empImage">Employee's Image:  </label>
+                  <input type="text" id="empImage" name="empImage"><br>
+                  <input type="submit" value="Add Entry" class="btn">
+                </form>
+            </div>
+        </div>
+         <div id="emplooyes" class="container"></div>
+         <script src="app.js"></script>
+      </main>
+      <footer>
+         <p>
+            <a href=https://www.facebook.com>facebook</a>
+            <a href=https://www.Youtube.com>Youtube</a>
+            <a href=https://www.GitHub.com>GitHub</a>
+            <h5 style="text-align: end;"> All Rights Reserved For Py. &copy Prep-Course 2022</h5>
+         </p>
+      </footer>
+   </body>
+</html>
